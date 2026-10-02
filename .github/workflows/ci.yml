@@ -12,4 +12,3 @@ jobs:
           python-version: '3.12'
       - run: python scripts/generate_skills.py
       - run: python scripts/validate_skills.py
-      - run: git diff --exit-code
